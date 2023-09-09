@@ -93,4 +93,56 @@
 
 /* ESERCIZIO 11 */
 
+@keyframes rotating{
+  0% {
+    transform:rotate(0)
+  }
+  80% {
+    transform:rotate(300deg)
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.ex-11-icon:hover {
+  animation: rotating 3s infinite ;
+}
+
+/* ESERCIZIO 12 */
+
+@keyframes topWhite {
+  0% {
+      left: 10%;
+  }
+  50% {
+      left: calc(100% - 60px);
+  }
+  100% {
+      left: 10%;
+  }
+}
+
+.ex-12-top-white {
+  animation: topWhite 2s infinite;
+}
+
+@keyframes botWhite {
+  0% {
+      right: 10%;
+  }
+  50% {
+      right: calc(100% - 60px );
+  }
+  100% {
+      right: 10%;
+  }
+}
+
+.ex-12-bottom-white {
+  animation: botWhite 2s infinite;
+}
+
+/* ESERCIZIO 13 */
+
 
